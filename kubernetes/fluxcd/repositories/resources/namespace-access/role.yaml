@@ -6,7 +6,6 @@ rules:
   - apiGroups:
       - ""
       - "apps"
-      - "autoscaling"
       - "extensions"
       - "networking.k8s.io"
       - "configuration.konghq.com"
