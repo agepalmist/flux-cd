@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   interval: 1m0s
-  path: ./kubernetes/fluxcd/repositories/infra-repo/resources/namespace-access
+  path: ./kubernetes/fluxcd/repositories/resources/namespace-access
   prune: true
   sourceRef:
     kind: GitRepository
