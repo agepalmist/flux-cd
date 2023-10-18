@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: namespace-access
+  namespace: default
+spec:
+  interval: 1m0s
+  ref:
+    branch: main
+  url: https://github.com/agepalmist/docker-development-youtube-series.git
