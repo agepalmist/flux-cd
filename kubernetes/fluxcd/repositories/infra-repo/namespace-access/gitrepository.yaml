@@ -7,4 +7,4 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/agepalmist/docker-development-youtube-series.git
+  url: https://github.com/agepalmist/flux-cd.git
