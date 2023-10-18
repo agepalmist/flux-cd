@@ -2,4 +2,16 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   name: mbld-access-alfa
-rules: [ ]
+rules:
+  - apiGroups:
+      - ""
+      - "apps"
+      - "autoscaling"
+      - "extensions"
+      - "networking.k8s.io"
+      - "configuration.konghq.com"
+      - "external-secrets.io"
+      - "secrets-store.csi.x-k8s.io"
+      - "policy"
+    resources: [ "*" ]
+    verbs: [ "*" ]
