@@ -8,4 +8,4 @@ spec:
     branch: project1
   secretRef:
     name: helm-charts
-  url: git@github.com:agepalmist/flux-cd.git
+  url: ssh://git@github.com/agepalmist/flux-cd.git
