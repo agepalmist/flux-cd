@@ -11,4 +11,4 @@ spec:
       chart: test
       sourceRef:
         kind: GitRepository
-        name: helm-charts
+        name: fluxcd-helm-charts
