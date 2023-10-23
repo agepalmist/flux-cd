@@ -2,11 +2,11 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: helm-charts
-  namespace: flux-system
+  namespace: fluxcd-helm-charts
 spec:
   interval: 1m0s
   ref:
     branch: project1
   secretRef:
-    name: helm-charts
+    name: fluxcd-helm-charts
   url: ssh://git@github.com/agepalmist/flux-cd.git
