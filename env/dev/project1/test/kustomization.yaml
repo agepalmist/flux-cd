@@ -4,3 +4,4 @@ namespace: project1-dev
 resources:
   - namespace.yaml
   - ../../../../resources/project1/test
+  - ../../../../resources/project1/fluxcd-helm-charts
