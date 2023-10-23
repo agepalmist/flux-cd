@@ -7,6 +7,4 @@ spec:
   interval: 1m0s
   ref:
     branch: project1
-  secretRef:
-    name: fluxcd-helm-charts
   url: https://github.com/agepalmist/helm-chart.git
